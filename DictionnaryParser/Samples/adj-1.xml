@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WordDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://services.aonaware.com/webservices/">
+  <Word>interesting</Word>
+  <Definitions>
+    <Definition>
+      <Word>interesting</Word>
+      <Dictionary>
+        <Id>wn</Id>
+        <Name>WordNet (r) 2.0</Name>
+      </Dictionary>
+      <WordDefinition>interesting
+     adj : arousing or holding the attention [ant: {uninteresting}]
+</WordDefinition>
+    </Definition>
+  </Definitions>
+</WordDefinition>

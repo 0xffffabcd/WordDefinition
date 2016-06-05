@@ -54,7 +54,7 @@
             this.GetDefinitionButton.TabIndex = 1;
             this.GetDefinitionButton.Text = "Get definition";
             this.GetDefinitionButton.UseVisualStyleBackColor = true;
-            this.GetDefinitionButton.Click += new System.EventHandler(this.GetDefinitionButton_Click);
+            this.GetDefinitionButton.Click += new System.EventHandler(this.Test);
             // 
             // label1
             // 
