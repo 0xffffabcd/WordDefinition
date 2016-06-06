@@ -1,6 +1,6 @@
 ﻿namespace DictionnaryParser
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -54,7 +54,7 @@
             this.GetDefinitionButton.TabIndex = 1;
             this.GetDefinitionButton.Text = "Get definition";
             this.GetDefinitionButton.UseVisualStyleBackColor = true;
-            this.GetDefinitionButton.Click += new System.EventHandler(this.Test);
+            this.GetDefinitionButton.Click += new System.EventHandler(this.GetDefinition_ButtonClick);
             // 
             // label1
             // 
@@ -86,7 +86,7 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Output";
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -96,7 +96,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.GetDefinitionButton);
             this.Controls.Add(this.wordTxtBox);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "Word Definition";
             this.ResumeLayout(false);
             this.PerformLayout();
